@@ -1,14 +1,17 @@
-#include <stdlib.h>
-#include <time.h>
-#include <stdio.h>
-
+#include "main.h"
 /**
- * main - Prints the text Hello WOrld
+ * print_alphabet - Print lowercase alphabets
  *
- * Return: Always 0 (Success)
+ *
+ * Return: Always (0)
  */
-int main(void)
+void print_alphabet(void)
 {
-	printf("Hello, World");
-	return (0);
+char c = 'a';
+while (c <= 'z')
+{
+_putchar(c);
+c++;
+}
+_putchar('\n');
 }
